@@ -70,8 +70,8 @@ class ScreeningQueue:
         if self.queue.empty():
             return None
         
-        pacient = self.queue.get()
-        return pacient #paciente em atendimento
+        patient = self.queue.get()
+        return patient #paciente em atendimento
     
     def show_queue(self):
         print("Fila atual:", list(self.queue.queue))
